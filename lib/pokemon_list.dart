@@ -36,8 +36,6 @@ class _PokemonListState extends State<PokemonList> {
 
   }
 
-
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -56,7 +54,6 @@ class _PokemonListState extends State<PokemonList> {
         ],
       ),
       body: OrientationBuilder(
-
         builder: (context, orientation) {
           if (orientation == Orientation.portrait) {
             //orientation yani cihaz dik durumda iken;
@@ -120,7 +117,6 @@ class _PokemonListState extends State<PokemonList> {
                 });
           } else {
             //YATAY İKEN
-            //cihaz dik durumda değil iken yani YATAY iken
             return FutureBuilder(
                 future: _pokemonlariGetir,
                 builder: (BuildContext context, AsyncSnapshot<Pokedex> sonuc) {

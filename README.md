@@ -1,16 +1,5 @@
 # pokedex
 
-A new Flutter project.
+Hazır bir veri kaynağından, pokemonlar ve tüm özellikleri json formatında çekilmiş ve güzel bir arayüz ile tüm evolutionlarının özelliklerinin bulunduğu bir pokemon ajandasıdır.
+Aynı zamanda firebase altyapısı ile mail veya google hesabı ile giriş yapılmaktadır.
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
